@@ -1,0 +1,10 @@
+^C:\CSC8503 CODE 2024\CSC8503\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/CSC8503 Code 2024" "-BC:/CSC8503 Code 2024" --check-stamp-file "C:/CSC8503 Code 2024/CSC8503/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

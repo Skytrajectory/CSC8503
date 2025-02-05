@@ -1,0 +1,21 @@
+﻿  Building Custom Rule C:/CSC8503 Code 2024/CSC8503/CMakeLists.txt
+  Scanning sources for module dependencies...
+  std.ixx
+  std.compat.ixx
+  Compiling...
+  std.ixx
+  std.compat.ixx
+  cmake_pch.cxx
+  GameTechRenderer.cpp
+  Main.cpp
+C:\CSC8503 Code 2024\CSC8503\Main.cpp(91,41): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\CSC8503 Code 2024\CSC8503\Main.cpp(189,35): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  NetworkPlayer.cpp
+  NetworkedGame.cpp
+  StateGameObject.cpp
+  TutorialGame.cpp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 3235 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  CSC8503.vcxproj -> C:\CSC8503 Code 2024\x64\Release\CSC8503.exe

@@ -1,0 +1,117 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: 中间目录(CSC8503CoreClasses.dir\Debug\)包含从另一个项目(CSC8503CoreClasses.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
+  TutorialGame.cpp
+D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.cpp(412,14): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.cpp(413,14): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.cpp(1474,82): warning C4244: “参数”: 从“int”转换到“T”，可能丢失数据
+D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.cpp(1474,82): warning C4244:         with
+D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.cpp(1474,82): warning C4244:         [
+D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.cpp(1474,82): warning C4244:             T=float
+D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.cpp(1474,82): warning C4244:         ]
+D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.cpp(1474,70): warning C4244: “参数”: 从“int”转换到“T”，可能丢失数据
+D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.cpp(1474,70): warning C4244:         with
+D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.cpp(1474,70): warning C4244:         [
+D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.cpp(1474,70): warning C4244:             T=float
+D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.cpp(1474,70): warning C4244:         ]
+D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.cpp(1474,65): warning C4244: “参数”: 从“int”转换到“T”，可能丢失数据
+D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.cpp(1474,65): warning C4244:         with
+D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.cpp(1474,65): warning C4244:         [
+D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.cpp(1474,65): warning C4244:             T=float
+D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.cpp(1474,65): warning C4244:         ]
+D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.cpp(1474,43): warning C4244: “参数”: 从“int”转换到“T”，可能丢失数据
+D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.cpp(1474,43): warning C4244:         with
+D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.cpp(1474,43): warning C4244:         [
+D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.cpp(1474,43): warning C4244:             T=float
+D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.cpp(1474,43): warning C4244:         ]
+D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.cpp(1474,30): warning C4244: “参数”: 从“int”转换到“T”，可能丢失数据
+D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.cpp(1474,30): warning C4244:         with
+D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.cpp(1474,30): warning C4244:         [
+D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.cpp(1474,30): warning C4244:             T=float
+D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.cpp(1474,30): warning C4244:         ]
+D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.cpp(1477,45): warning C4244: “参数”: 从“int”转换到“T”，可能丢失数据
+D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.cpp(1477,45): warning C4244:         with
+D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.cpp(1477,45): warning C4244:         [
+D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.cpp(1477,45): warning C4244:             T=float
+D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.cpp(1477,45): warning C4244:         ]
+D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.cpp(1477,32): warning C4244: “参数”: 从“int”转换到“T”，可能丢失数据
+D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.cpp(1477,32): warning C4244:         with
+D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.cpp(1477,32): warning C4244:         [
+D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.cpp(1477,32): warning C4244:             T=float
+D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.cpp(1477,32): warning C4244:         ]
+D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.cpp(1480,42): warning C4244: “参数”: 从“int”转换到“T”，可能丢失数据
+D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.cpp(1480,42): warning C4244:         with
+D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.cpp(1480,42): warning C4244:         [
+D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.cpp(1480,42): warning C4244:             T=float
+D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.cpp(1480,42): warning C4244:         ]
+D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.cpp(1480,29): warning C4244: “参数”: 从“int”转换到“T”，可能丢失数据
+D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.cpp(1480,29): warning C4244:         with
+D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.cpp(1480,29): warning C4244:         [
+D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.cpp(1480,29): warning C4244:             T=float
+D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.cpp(1480,29): warning C4244:         ]
+D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.cpp(1484,44): warning C4244: “参数”: 从“int”转换到“T”，可能丢失数据
+D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.cpp(1484,44): warning C4244:         with
+D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.cpp(1484,44): warning C4244:         [
+D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.cpp(1484,44): warning C4244:             T=float
+D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.cpp(1484,44): warning C4244:         ]
+D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.cpp(1484,31): warning C4244: “参数”: 从“int”转换到“T”，可能丢失数据
+D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.cpp(1484,31): warning C4244:         with
+D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.cpp(1484,31): warning C4244:         [
+D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.cpp(1484,31): warning C4244:             T=float
+D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.cpp(1484,31): warning C4244:         ]
+D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.cpp(1488,43): warning C4244: “参数”: 从“int”转换到“T”，可能丢失数据
+D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.cpp(1488,43): warning C4244:         with
+D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.cpp(1488,43): warning C4244:         [
+D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.cpp(1488,43): warning C4244:             T=float
+D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.cpp(1488,43): warning C4244:         ]
+D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.cpp(1488,30): warning C4244: “参数”: 从“int”转换到“T”，可能丢失数据
+D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.cpp(1488,30): warning C4244:         with
+D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.cpp(1488,30): warning C4244:         [
+D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.cpp(1488,30): warning C4244:             T=float
+D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.cpp(1488,30): warning C4244:         ]
+D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.cpp(1492,81): warning C4244: “参数”: 从“int”转换到“T”，可能丢失数据
+D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.cpp(1492,81): warning C4244:         with
+D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.cpp(1492,81): warning C4244:         [
+D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.cpp(1492,81): warning C4244:             T=float
+D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.cpp(1492,81): warning C4244:         ]
+D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.cpp(1492,70): warning C4244: “参数”: 从“int”转换到“T”，可能丢失数据
+D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.cpp(1492,70): warning C4244:         with
+D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.cpp(1492,70): warning C4244:         [
+D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.cpp(1492,70): warning C4244:             T=float
+D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.cpp(1492,70): warning C4244:         ]
+D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.cpp(1492,65): warning C4244: “参数”: 从“int”转换到“T”，可能丢失数据
+D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.cpp(1492,65): warning C4244:         with
+D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.cpp(1492,65): warning C4244:         [
+D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.cpp(1492,65): warning C4244:             T=float
+D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.cpp(1492,65): warning C4244:         ]
+D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.cpp(1492,43): warning C4244: “参数”: 从“int”转换到“T”，可能丢失数据
+D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.cpp(1492,43): warning C4244:         with
+D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.cpp(1492,43): warning C4244:         [
+D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.cpp(1492,43): warning C4244:             T=float
+D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.cpp(1492,43): warning C4244:         ]
+D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.cpp(1492,30): warning C4244: “参数”: 从“int”转换到“T”，可能丢失数据
+D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.cpp(1492,30): warning C4244:         with
+D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.cpp(1492,30): warning C4244:         [
+D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.cpp(1492,30): warning C4244:             T=float
+D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.cpp(1492,30): warning C4244:         ]
+D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.cpp(1495,45): warning C4244: “参数”: 从“int”转换到“T”，可能丢失数据
+D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.cpp(1495,45): warning C4244:         with
+D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.cpp(1495,45): warning C4244:         [
+D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.cpp(1495,45): warning C4244:             T=float
+D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.cpp(1495,45): warning C4244:         ]
+D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.cpp(1495,32): warning C4244: “参数”: 从“int”转换到“T”，可能丢失数据
+D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.cpp(1495,32): warning C4244:         with
+D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.cpp(1495,32): warning C4244:         [
+D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.cpp(1495,32): warning C4244:             T=float
+D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.cpp(1495,32): warning C4244:         ]
+D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.cpp(1518,67): warning C4244: “参数”: 从“int”转换到“T”，可能丢失数据
+D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.cpp(1518,67): warning C4244:         with
+D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.cpp(1518,67): warning C4244:         [
+D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.cpp(1518,67): warning C4244:             T=float
+D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.cpp(1518,67): warning C4244:         ]
+D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.cpp(1521,48): warning C4244: “参数”: 从“int”转换到“T”，可能丢失数据
+D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.cpp(1521,48): warning C4244:         with
+D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.cpp(1521,48): warning C4244:         [
+D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.cpp(1521,48): warning C4244:             T=float
+D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.cpp(1521,48): warning C4244:         ]
+D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.cpp(1550,44): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.cpp(1632,1): warning C4715: “`NCL::CSC8503::TutorialGame::InitEnemyStateMachine'::`2'::<lambda_3>::operator()”: 不是所有的控件路径都返回值
+  CSC8503.vcxproj -> D:\CSC8503\CSC8503 Code 2024\x64\Debug\CSC8503.exe

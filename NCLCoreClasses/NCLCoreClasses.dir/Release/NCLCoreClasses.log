@@ -1,0 +1,29 @@
+﻿  Building Custom Rule C:/CSC8503 Code 2024/NCLCoreClasses/CMakeLists.txt
+  cmake_pch.cxx
+  Assets.cpp
+  SimpleFont.cpp
+  TextureLoader.cpp
+  TextureWriter.cpp
+  Maths.cpp
+  Plane.cpp
+  Frustum.cpp
+  Quaternion.cpp
+  MeshAnimation.cpp
+  Mesh.cpp
+  MshLoader.cpp
+  MeshMaterial.cpp
+  RendererBase.cpp
+  Shader.cpp
+  Texture.cpp
+  Camera.cpp
+  GameTimer.cpp
+  Keyboard.cpp
+  Mouse.cpp
+  Window.cpp
+  Compiling...
+  Controller.cpp
+  KeyboardMouseController.cpp
+  Win32Keyboard.cpp
+  Win32Mouse.cpp
+  Win32Window.cpp
+  NCLCoreClasses.vcxproj -> C:\CSC8503 Code 2024\NCLCoreClasses\Release\NCLCoreClasses.lib

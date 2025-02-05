@@ -1,0 +1,13 @@
+D:\CSC8503\CSC8503 Code 2024\OpenGLRendering\CMakeFiles\OpenGLRendering.dir\cmake_pch.cxx;D:\CSC8503\CSC8503 Code 2024\OpenGLRendering\OpenGLRendering.dir\Debug\cmake_pch.obj
+D:\CSC8503\CSC8503 Code 2024\OpenGLRendering\OGLTexture.h;D:\CSC8503\CSC8503 Code 2024\OpenGLRendering\OpenGLRendering.dir\Debug\OGLTexture.h.obj
+D:\CSC8503\CSC8503 Code 2024\OpenGLRendering\OGLShader.h;D:\CSC8503\CSC8503 Code 2024\OpenGLRendering\OpenGLRendering.dir\Debug\OGLShader.h.obj
+D:\CSC8503\CSC8503 Code 2024\OpenGLRendering\OGLRenderer.h;D:\CSC8503\CSC8503 Code 2024\OpenGLRendering\OpenGLRendering.dir\Debug\OGLRenderer.h.obj
+D:\CSC8503\CSC8503 Code 2024\OpenGLRendering\OGLMesh.h;D:\CSC8503\CSC8503 Code 2024\OpenGLRendering\OpenGLRendering.dir\Debug\OGLMesh.h.obj
+D:\CSC8503\CSC8503 Code 2024\OpenGLRendering\OGLComputeShader.h;D:\CSC8503\CSC8503 Code 2024\OpenGLRendering\OpenGLRendering.dir\Debug\OGLComputeShader.h.obj
+D:\CSC8503\CSC8503 Code 2024\OpenGLRendering\OGLTexture.cpp;D:\CSC8503\CSC8503 Code 2024\OpenGLRendering\OpenGLRendering.dir\Debug\OGLTexture.cpp.obj
+D:\CSC8503\CSC8503 Code 2024\OpenGLRendering\OGLShader.cpp;D:\CSC8503\CSC8503 Code 2024\OpenGLRendering\OpenGLRendering.dir\Debug\OGLShader.cpp.obj
+D:\CSC8503\CSC8503 Code 2024\OpenGLRendering\OGLRenderer.cpp;D:\CSC8503\CSC8503 Code 2024\OpenGLRendering\OpenGLRendering.dir\Debug\OGLRenderer.cpp.obj
+D:\CSC8503\CSC8503 Code 2024\OpenGLRendering\OGLMesh.cpp;D:\CSC8503\CSC8503 Code 2024\OpenGLRendering\OpenGLRendering.dir\Debug\OGLMesh.cpp.obj
+D:\CSC8503\CSC8503 Code 2024\OpenGLRendering\OGLComputeShader.cpp;D:\CSC8503\CSC8503 Code 2024\OpenGLRendering\OpenGLRendering.dir\Debug\OGLComputeShader.cpp.obj
+D:\CSC8503\CSC8503 Code 2024\OpenGLRendering\glad\gl.h;D:\CSC8503\CSC8503 Code 2024\OpenGLRendering\OpenGLRendering.dir\Debug\glad\gl.h.obj
+D:\CSC8503\CSC8503 Code 2024\OpenGLRendering\glad\gl.c;D:\CSC8503\CSC8503 Code 2024\OpenGLRendering\OpenGLRendering.dir\Debug\glad\gl.c.obj
