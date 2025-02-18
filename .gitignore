@@ -16,3 +16,5 @@
 CMakeFiles/
 CMakeCache.txt
 *.cmake
+x64/Debug/CSC8503CoreClasses.pdb
+x64/Debug
