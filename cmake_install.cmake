@@ -1,4 +1,4 @@
-# Install script for directory: D:/CSC8503/CSC8503 Code 2024
+# Install script for directory: H:/Desktop/testJenkins/CSC8503
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,22 +34,22 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/CSC8503/CSC8503 Code 2024/NCLCoreClasses/cmake_install.cmake")
+  include("H:/Desktop/testJenkins/CSC8503/NCLCoreClasses/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/CSC8503/CSC8503 Code 2024/CSC8503CoreClasses/cmake_install.cmake")
+  include("H:/Desktop/testJenkins/CSC8503/CSC8503CoreClasses/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/CSC8503/CSC8503 Code 2024/OpenGLRendering/cmake_install.cmake")
+  include("H:/Desktop/testJenkins/CSC8503/OpenGLRendering/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/CSC8503/CSC8503 Code 2024/CSC8503/cmake_install.cmake")
+  include("H:/Desktop/testJenkins/CSC8503/CSC8503/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -60,5 +60,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/CSC8503/CSC8503 Code 2024/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "H:/Desktop/testJenkins/CSC8503/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -28,3 +28,8 @@ x64/
 
 *.log
 *.bak
+OpenGLRendering/OpenGLRendering.dir/Debug
+NCLCoreClasses/NCLCoreClasses.dir/Debug
+NCLCoreClasses/Debug
+CSC8503CoreClasses/CSC8503CoreClasses.dir/Debug
+CSC8503/CSC8503.dir/Debug

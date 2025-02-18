@@ -4,10 +4,6 @@
     <PreferredToolArchitecture>x64</PreferredToolArchitecture>
   </PropertyGroup>
   <ItemGroup Label="ProjectConfigurations">
-    <ProjectConfiguration Include="Client|x64">
-      <Configuration>Client</Configuration>
-      <Platform>x64</Platform>
-    </ProjectConfiguration>
     <ProjectConfiguration Include="Debug|x64">
       <Configuration>Debug</Configuration>
       <Platform>x64</Platform>
@@ -16,13 +12,9 @@
       <Configuration>Release</Configuration>
       <Platform>x64</Platform>
     </ProjectConfiguration>
-    <ProjectConfiguration Include="Serve|x64">
-      <Configuration>Serve</Configuration>
-      <Platform>x64</Platform>
-    </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{53FB62D5-14A2-37E3-880A-58C55C6C027F}</ProjectGuid>
+    <ProjectGuid>{47A14E93-554E-3E63-A2DB-8F0AC60DC56F}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -31,16 +23,6 @@
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
-    <ConfigurationType>Application</ConfigurationType>
-    <CharacterSet>Unicode</CharacterSet>
-    <PlatformToolset>v143</PlatformToolset>
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Client|x64'" Label="Configuration">
-    <ConfigurationType>Application</ConfigurationType>
-    <CharacterSet>Unicode</CharacterSet>
-    <PlatformToolset>v143</PlatformToolset>
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Serve|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <CharacterSet>Unicode</CharacterSet>
     <PlatformToolset>v143</PlatformToolset>
@@ -60,25 +42,13 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\CSC8503\CSC8503 Code 2024\x64\Debug\</OutDir>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Client|x64'">D:\CSC8503\CSC8503 Code 2024\x64\Debug\</OutDir>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Serve|x64'">D:\CSC8503\CSC8503 Code 2024\x64\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">H:\Desktop\testJenkins\CSC8503\x64\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CSC8503.dir\Debug\</IntDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='Client|x64'">CSC8503.dir\Debug\</IntDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='Serve|x64'">CSC8503.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CSC8503</TargetName>
-    <TargetName Condition="'$(Configuration)|$(Platform)'=='Client|x64'">CSC8503</TargetName>
-    <TargetName Condition="'$(Configuration)|$(Platform)'=='Serve|x64'">CSC8503</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
-    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Client|x64'">.exe</TargetExt>
-    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Serve|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
-    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Client|x64'">true</LinkIncremental>
-    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Serve|x64'">true</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
-    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Client|x64'">true</GenerateManifest>
-    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Serve|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\CSC8503\CSC8503 Code 2024\x64\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">H:\Desktop\testJenkins\CSC8503\x64\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CSC8503.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CSC8503</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
@@ -86,7 +56,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\CSC8503\CSC8503 Code 2024\CSC8503\..\OpenGLRendering;D:\CSC8503\CSC8503 Code 2024\CSC8503\..\NCLCoreClasses;D:\CSC8503\CSC8503 Code 2024\CSC8503\..\CSC8503CoreClasses;D:\CSC8503\CSC8503 Code 2024\NCLCoreClasses;D:\CSC8503\CSC8503 Code 2024\OpenGLRendering;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>H:\Desktop\testJenkins\CSC8503\CSC8503\..\OpenGLRendering;H:\Desktop\testJenkins\CSC8503\CSC8503\..\NCLCoreClasses;H:\Desktop\testJenkins\CSC8503\CSC8503\..\CSC8503CoreClasses;H:\Desktop\testJenkins\CSC8503\NCLCoreClasses;H:\Desktop\testJenkins\CSC8503\OpenGLRendering;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <ConformanceMode>true</ConformanceMode>
@@ -96,22 +66,22 @@
       <LanguageStandard>stdcpplatest</LanguageStandard>
       <Optimization>Disabled</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
-      <PrecompiledHeaderFile>D:/CSC8503/CSC8503 Code 2024/CSC8503/CMakeFiles/CSC8503.dir/Debug/cmake_pch.hxx</PrecompiledHeaderFile>
-      <PrecompiledHeaderOutputFile>D:/CSC8503/CSC8503 Code 2024/CSC8503/CSC8503.dir/Debug/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeaderFile>H:/Desktop/testJenkins/CSC8503/CSC8503/CMakeFiles/CSC8503.dir/Debug/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>H:/Desktop/testJenkins/CSC8503/CSC8503/CSC8503.dir/Debug/cmake_pch.pch</PrecompiledHeaderOutputFile>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <SDLCheck>true</SDLCheck>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level3</WarningLevel>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;UNICODE;_UNICODE;WIN32_LEAN_AND_MEAN;_WINSOCKAPI_;_WINSOCK2API_;_WINSOCK_DEPRECATED_NO_WARNINGS;ASSETROOTLOCATION="D:/CSC8503/CSC8503 Code 2024/Assets/";NOMINMAX;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;UNICODE;_UNICODE;WIN32_LEAN_AND_MEAN;_WINSOCKAPI_;_WINSOCK2API_;_WINSOCK_DEPRECATED_NO_WARNINGS;ASSETROOTLOCATION="H:/Desktop/testJenkins/CSC8503/Assets/";NOMINMAX;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;UNICODE;_UNICODE;WIN32_LEAN_AND_MEAN;_WINSOCKAPI_;_WINSOCK2API_;_WINSOCK_DEPRECATED_NO_WARNINGS;ASSETROOTLOCATION=\"D:/CSC8503/CSC8503 Code 2024/Assets/\";NOMINMAX;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\CSC8503\CSC8503 Code 2024\CSC8503\..\OpenGLRendering;D:\CSC8503\CSC8503 Code 2024\CSC8503\..\NCLCoreClasses;D:\CSC8503\CSC8503 Code 2024\CSC8503\..\CSC8503CoreClasses;D:\CSC8503\CSC8503 Code 2024\NCLCoreClasses;D:\CSC8503\CSC8503 Code 2024\OpenGLRendering;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;UNICODE;_UNICODE;WIN32_LEAN_AND_MEAN;_WINSOCKAPI_;_WINSOCK2API_;_WINSOCK_DEPRECATED_NO_WARNINGS;ASSETROOTLOCATION=\"H:/Desktop/testJenkins/CSC8503/Assets/\";NOMINMAX;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>H:\Desktop\testJenkins\CSC8503\CSC8503\..\OpenGLRendering;H:\Desktop\testJenkins\CSC8503\CSC8503\..\NCLCoreClasses;H:\Desktop\testJenkins\CSC8503\CSC8503\..\CSC8503CoreClasses;H:\Desktop\testJenkins\CSC8503\NCLCoreClasses;H:\Desktop\testJenkins\CSC8503\OpenGLRendering;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\CSC8503\CSC8503 Code 2024\CSC8503\..\OpenGLRendering;D:\CSC8503\CSC8503 Code 2024\CSC8503\..\NCLCoreClasses;D:\CSC8503\CSC8503 Code 2024\CSC8503\..\CSC8503CoreClasses;D:\CSC8503\CSC8503 Code 2024\NCLCoreClasses;D:\CSC8503\CSC8503 Code 2024\OpenGLRendering;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>H:\Desktop\testJenkins\CSC8503\CSC8503\..\OpenGLRendering;H:\Desktop\testJenkins\CSC8503\CSC8503\..\NCLCoreClasses;H:\Desktop\testJenkins\CSC8503\CSC8503\..\CSC8503CoreClasses;H:\Desktop\testJenkins\CSC8503\NCLCoreClasses;H:\Desktop\testJenkins\CSC8503\OpenGLRendering;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -124,104 +94,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>D:/CSC8503/CSC8503 Code 2024/x64/Debug/CSC8503.lib</ImportLibrary>
-      <ProgramDataBaseFile>D:/CSC8503/CSC8503 Code 2024/x64/Debug/CSC8503.pdb</ProgramDataBaseFile>
-      <SubSystem>Console</SubSystem>
-    </Link>
-    <ProjectReference>
-      <LinkLibraryDependencies>false</LinkLibraryDependencies>
-    </ProjectReference>
-  </ItemDefinitionGroup>
-  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Client|x64'">
-    <ClCompile>
-      <AdditionalIncludeDirectories>D:\CSC8503\CSC8503 Code 2024\CSC8503\..\OpenGLRendering;D:\CSC8503\CSC8503 Code 2024\CSC8503\..\NCLCoreClasses;D:\CSC8503\CSC8503 Code 2024\CSC8503\..\CSC8503CoreClasses;D:\CSC8503\CSC8503 Code 2024\NCLCoreClasses;D:\CSC8503\CSC8503 Code 2024\OpenGLRendering;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
-      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
-      <ConformanceMode>true</ConformanceMode>
-      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
-      <ExceptionHandling>Sync</ExceptionHandling>
-      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
-      <LanguageStandard>stdcpplatest</LanguageStandard>
-      <Optimization>Disabled</Optimization>
-      <PrecompiledHeader>NotUsing</PrecompiledHeader>
-      <PrecompiledHeaderFile>D:/CSC8503/CSC8503 Code 2024/CSC8503/CMakeFiles/CSC8503.dir/Debug/cmake_pch.hxx</PrecompiledHeaderFile>
-      <PrecompiledHeaderOutputFile>D:/CSC8503/CSC8503 Code 2024/CSC8503/CSC8503.dir/Debug/cmake_pch.pch</PrecompiledHeaderOutputFile>
-      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
-      <RuntimeTypeInfo>true</RuntimeTypeInfo>
-      <SDLCheck>true</SDLCheck>
-      <UseFullPaths>false</UseFullPaths>
-      <WarningLevel>Level3</WarningLevel>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;UNICODE;_UNICODE;WIN32_LEAN_AND_MEAN;_WINSOCKAPI_;_WINSOCK2API_;_WINSOCK_DEPRECATED_NO_WARNINGS;ASSETROOTLOCATION="D:/CSC8503/CSC8503 Code 2024/Assets/";NOMINMAX;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
-      <ObjectFileName>$(IntDir)</ObjectFileName>
-    </ClCompile>
-    <ResourceCompile>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;UNICODE;_UNICODE;WIN32_LEAN_AND_MEAN;_WINSOCKAPI_;_WINSOCK2API_;_WINSOCK_DEPRECATED_NO_WARNINGS;ASSETROOTLOCATION=\"D:/CSC8503/CSC8503 Code 2024/Assets/\";NOMINMAX;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\CSC8503\CSC8503 Code 2024\CSC8503\..\OpenGLRendering;D:\CSC8503\CSC8503 Code 2024\CSC8503\..\NCLCoreClasses;D:\CSC8503\CSC8503 Code 2024\CSC8503\..\CSC8503CoreClasses;D:\CSC8503\CSC8503 Code 2024\NCLCoreClasses;D:\CSC8503\CSC8503 Code 2024\OpenGLRendering;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-    </ResourceCompile>
-    <Midl>
-      <AdditionalIncludeDirectories>D:\CSC8503\CSC8503 Code 2024\CSC8503\..\OpenGLRendering;D:\CSC8503\CSC8503 Code 2024\CSC8503\..\NCLCoreClasses;D:\CSC8503\CSC8503 Code 2024\CSC8503\..\CSC8503CoreClasses;D:\CSC8503\CSC8503 Code 2024\NCLCoreClasses;D:\CSC8503\CSC8503 Code 2024\OpenGLRendering;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
-      <HeaderFileName>%(Filename).h</HeaderFileName>
-      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
-      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
-      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
-    </Midl>
-    <Link>
-      <AdditionalDependencies>Winmm.lib;..\NCLCoreClasses\Debug\NCLCoreClasses.lib;..\x64\Debug\CSC8503CoreClasses.lib;..\OpenGLRendering\Debug\OpenGLRendering.lib;ws2_32.lib;..\NCLCoreClasses\Debug\NCLCoreClasses.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
-      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
-      <GenerateDebugInformation>true</GenerateDebugInformation>
-      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>D:/CSC8503/CSC8503 Code 2024/x64/Debug/CSC8503.lib</ImportLibrary>
-      <ProgramDataBaseFile>D:/CSC8503/CSC8503 Code 2024/x64/Debug/CSC8503.pdb</ProgramDataBaseFile>
-      <SubSystem>Console</SubSystem>
-    </Link>
-    <ProjectReference>
-      <LinkLibraryDependencies>false</LinkLibraryDependencies>
-    </ProjectReference>
-  </ItemDefinitionGroup>
-  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Serve|x64'">
-    <ClCompile>
-      <AdditionalIncludeDirectories>D:\CSC8503\CSC8503 Code 2024\CSC8503\..\OpenGLRendering;D:\CSC8503\CSC8503 Code 2024\CSC8503\..\NCLCoreClasses;D:\CSC8503\CSC8503 Code 2024\CSC8503\..\CSC8503CoreClasses;D:\CSC8503\CSC8503 Code 2024\NCLCoreClasses;D:\CSC8503\CSC8503 Code 2024\OpenGLRendering;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
-      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
-      <ConformanceMode>true</ConformanceMode>
-      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
-      <ExceptionHandling>Sync</ExceptionHandling>
-      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
-      <LanguageStandard>stdcpplatest</LanguageStandard>
-      <Optimization>Disabled</Optimization>
-      <PrecompiledHeader>NotUsing</PrecompiledHeader>
-      <PrecompiledHeaderFile>D:/CSC8503/CSC8503 Code 2024/CSC8503/CMakeFiles/CSC8503.dir/Debug/cmake_pch.hxx</PrecompiledHeaderFile>
-      <PrecompiledHeaderOutputFile>D:/CSC8503/CSC8503 Code 2024/CSC8503/CSC8503.dir/Debug/cmake_pch.pch</PrecompiledHeaderOutputFile>
-      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
-      <RuntimeTypeInfo>true</RuntimeTypeInfo>
-      <SDLCheck>true</SDLCheck>
-      <UseFullPaths>false</UseFullPaths>
-      <WarningLevel>Level3</WarningLevel>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;UNICODE;_UNICODE;WIN32_LEAN_AND_MEAN;_WINSOCKAPI_;_WINSOCK2API_;_WINSOCK_DEPRECATED_NO_WARNINGS;ASSETROOTLOCATION="D:/CSC8503/CSC8503 Code 2024/Assets/";NOMINMAX;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
-      <ObjectFileName>$(IntDir)</ObjectFileName>
-    </ClCompile>
-    <ResourceCompile>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;UNICODE;_UNICODE;WIN32_LEAN_AND_MEAN;_WINSOCKAPI_;_WINSOCK2API_;_WINSOCK_DEPRECATED_NO_WARNINGS;ASSETROOTLOCATION=\"D:/CSC8503/CSC8503 Code 2024/Assets/\";NOMINMAX;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\CSC8503\CSC8503 Code 2024\CSC8503\..\OpenGLRendering;D:\CSC8503\CSC8503 Code 2024\CSC8503\..\NCLCoreClasses;D:\CSC8503\CSC8503 Code 2024\CSC8503\..\CSC8503CoreClasses;D:\CSC8503\CSC8503 Code 2024\NCLCoreClasses;D:\CSC8503\CSC8503 Code 2024\OpenGLRendering;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-    </ResourceCompile>
-    <Midl>
-      <AdditionalIncludeDirectories>D:\CSC8503\CSC8503 Code 2024\CSC8503\..\OpenGLRendering;D:\CSC8503\CSC8503 Code 2024\CSC8503\..\NCLCoreClasses;D:\CSC8503\CSC8503 Code 2024\CSC8503\..\CSC8503CoreClasses;D:\CSC8503\CSC8503 Code 2024\NCLCoreClasses;D:\CSC8503\CSC8503 Code 2024\OpenGLRendering;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
-      <HeaderFileName>%(Filename).h</HeaderFileName>
-      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
-      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
-      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
-    </Midl>
-    <Link>
-      <AdditionalDependencies>Winmm.lib;..\NCLCoreClasses\Debug\NCLCoreClasses.lib;..\x64\Debug\CSC8503CoreClasses.lib;..\OpenGLRendering\Debug\OpenGLRendering.lib;ws2_32.lib;..\NCLCoreClasses\Debug\NCLCoreClasses.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
-      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
-      <GenerateDebugInformation>true</GenerateDebugInformation>
-      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>D:/CSC8503/CSC8503 Code 2024/x64/Debug/CSC8503.lib</ImportLibrary>
-      <ProgramDataBaseFile>D:/CSC8503/CSC8503 Code 2024/x64/Debug/CSC8503.pdb</ProgramDataBaseFile>
+      <ImportLibrary>H:/Desktop/testJenkins/CSC8503/x64/Debug/CSC8503.lib</ImportLibrary>
+      <ProgramDataBaseFile>H:/Desktop/testJenkins/CSC8503/x64/Debug/CSC8503.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -230,7 +104,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\CSC8503\CSC8503 Code 2024\CSC8503\..\OpenGLRendering;D:\CSC8503\CSC8503 Code 2024\CSC8503\..\NCLCoreClasses;D:\CSC8503\CSC8503 Code 2024\CSC8503\..\CSC8503CoreClasses;D:\CSC8503\CSC8503 Code 2024\NCLCoreClasses;D:\CSC8503\CSC8503 Code 2024\OpenGLRendering;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>H:\Desktop\testJenkins\CSC8503\CSC8503\..\OpenGLRendering;H:\Desktop\testJenkins\CSC8503\CSC8503\..\NCLCoreClasses;H:\Desktop\testJenkins\CSC8503\CSC8503\..\CSC8503CoreClasses;H:\Desktop\testJenkins\CSC8503\NCLCoreClasses;H:\Desktop\testJenkins\CSC8503\OpenGLRendering;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ConformanceMode>true</ConformanceMode>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -241,22 +115,22 @@
       <LanguageStandard>stdcpplatest</LanguageStandard>
       <Optimization>MaxSpeed</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
-      <PrecompiledHeaderFile>D:/CSC8503/CSC8503 Code 2024/CSC8503/CMakeFiles/CSC8503.dir/Release/cmake_pch.hxx</PrecompiledHeaderFile>
-      <PrecompiledHeaderOutputFile>D:/CSC8503/CSC8503 Code 2024/CSC8503/CSC8503.dir/Release/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeaderFile>H:/Desktop/testJenkins/CSC8503/CSC8503/CMakeFiles/CSC8503.dir/Release/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>H:/Desktop/testJenkins/CSC8503/CSC8503/CSC8503.dir/Release/cmake_pch.pch</PrecompiledHeaderOutputFile>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <SDLCheck>true</SDLCheck>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level3</WarningLevel>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;UNICODE;_UNICODE;WIN32_LEAN_AND_MEAN;_WINSOCKAPI_;_WINSOCK2API_;_WINSOCK_DEPRECATED_NO_WARNINGS;ASSETROOTLOCATION="D:/CSC8503/CSC8503 Code 2024/Assets/";NOMINMAX;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;UNICODE;_UNICODE;WIN32_LEAN_AND_MEAN;_WINSOCKAPI_;_WINSOCK2API_;_WINSOCK_DEPRECATED_NO_WARNINGS;ASSETROOTLOCATION="H:/Desktop/testJenkins/CSC8503/Assets/";NOMINMAX;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;UNICODE;_UNICODE;WIN32_LEAN_AND_MEAN;_WINSOCKAPI_;_WINSOCK2API_;_WINSOCK_DEPRECATED_NO_WARNINGS;ASSETROOTLOCATION=\"D:/CSC8503/CSC8503 Code 2024/Assets/\";NOMINMAX;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\CSC8503\CSC8503 Code 2024\CSC8503\..\OpenGLRendering;D:\CSC8503\CSC8503 Code 2024\CSC8503\..\NCLCoreClasses;D:\CSC8503\CSC8503 Code 2024\CSC8503\..\CSC8503CoreClasses;D:\CSC8503\CSC8503 Code 2024\NCLCoreClasses;D:\CSC8503\CSC8503 Code 2024\OpenGLRendering;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;UNICODE;_UNICODE;WIN32_LEAN_AND_MEAN;_WINSOCKAPI_;_WINSOCK2API_;_WINSOCK_DEPRECATED_NO_WARNINGS;ASSETROOTLOCATION=\"H:/Desktop/testJenkins/CSC8503/Assets/\";NOMINMAX;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>H:\Desktop\testJenkins\CSC8503\CSC8503\..\OpenGLRendering;H:\Desktop\testJenkins\CSC8503\CSC8503\..\NCLCoreClasses;H:\Desktop\testJenkins\CSC8503\CSC8503\..\CSC8503CoreClasses;H:\Desktop\testJenkins\CSC8503\NCLCoreClasses;H:\Desktop\testJenkins\CSC8503\OpenGLRendering;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\CSC8503\CSC8503 Code 2024\CSC8503\..\OpenGLRendering;D:\CSC8503\CSC8503 Code 2024\CSC8503\..\NCLCoreClasses;D:\CSC8503\CSC8503 Code 2024\CSC8503\..\CSC8503CoreClasses;D:\CSC8503\CSC8503 Code 2024\NCLCoreClasses;D:\CSC8503\CSC8503 Code 2024\OpenGLRendering;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>H:\Desktop\testJenkins\CSC8503\CSC8503\..\OpenGLRendering;H:\Desktop\testJenkins\CSC8503\CSC8503\..\NCLCoreClasses;H:\Desktop\testJenkins\CSC8503\CSC8503\..\CSC8503CoreClasses;H:\Desktop\testJenkins\CSC8503\NCLCoreClasses;H:\Desktop\testJenkins\CSC8503\OpenGLRendering;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -270,9 +144,9 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>D:/CSC8503/CSC8503 Code 2024/x64/Release/CSC8503.lib</ImportLibrary>
+      <ImportLibrary>H:/Desktop/testJenkins/CSC8503/x64/Release/CSC8503.lib</ImportLibrary>
       <OptimizeReferences>true</OptimizeReferences>
-      <ProgramDataBaseFile>D:/CSC8503/CSC8503 Code 2024/x64/Release/CSC8503.pdb</ProgramDataBaseFile>
+      <ProgramDataBaseFile>H:/Desktop/testJenkins/CSC8503/x64/Release/CSC8503.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -280,13 +154,11 @@
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\CSC8503\CSC8503 Code 2024\CSC8503\CMakeLists.txt">
+    <CustomBuild Include="H:\Desktop\testJenkins\CSC8503\CSC8503\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/CSC8503/CSC8503 Code 2024/CSC8503/CMakeLists.txt</Message>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Client|x64'">Building Custom Rule D:/CSC8503/CSC8503 Code 2024/CSC8503/CMakeLists.txt</Message>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Serve|x64'">Building Custom Rule D:/CSC8503/CSC8503 Code 2024/CSC8503/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule H:/Desktop/testJenkins/CSC8503/CSC8503/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SD:/CSC8503/CSC8503 Code 2024" "-BD:/CSC8503/CSC8503 Code 2024" --check-stamp-file "D:/CSC8503/CSC8503 Code 2024/CSC8503/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" -SH:/Desktop/testJenkins/CSC8503 -BH:/Desktop/testJenkins/CSC8503 --check-stamp-file H:/Desktop/testJenkins/CSC8503/CSC8503/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -294,36 +166,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Client|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SD:/CSC8503/CSC8503 Code 2024" "-BD:/CSC8503/CSC8503 Code 2024" --check-stamp-file "D:/CSC8503/CSC8503 Code 2024/CSC8503/CMakeFiles/generate.stamp"
-if %errorlevel% neq 0 goto :cmEnd
-:cmEnd
-endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
-:cmErrorLevel
-exit /b %1
-:cmDone
-if %errorlevel% neq 0 goto :VCEnd</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Serve|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SD:/CSC8503/CSC8503 Code 2024" "-BD:/CSC8503/CSC8503 Code 2024" --check-stamp-file "D:/CSC8503/CSC8503 Code 2024/CSC8503/CMakeFiles/generate.stamp"
-if %errorlevel% neq 0 goto :cmEnd
-:cmEnd
-endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
-:cmErrorLevel
-exit /b %1
-:cmDone
-if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\CSC8503\CSC8503 Code 2024\CMake\Default.cmake;D:\CSC8503\CSC8503 Code 2024\CMake\DefaultCXX.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Client|x64'">D:\CSC8503\CSC8503 Code 2024\CMake\Default.cmake;D:\CSC8503\CSC8503 Code 2024\CMake\DefaultCXX.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Serve|x64'">D:\CSC8503\CSC8503 Code 2024\CMake\Default.cmake;D:\CSC8503\CSC8503 Code 2024\CMake\DefaultCXX.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\CSC8503\CSC8503 Code 2024\CSC8503\CMakeFiles\generate.stamp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Client|x64'">D:\CSC8503\CSC8503 Code 2024\CSC8503\CMakeFiles\generate.stamp</Outputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Serve|x64'">D:\CSC8503\CSC8503 Code 2024\CSC8503\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">H:\Desktop\testJenkins\CSC8503\CMake\Default.cmake;H:\Desktop\testJenkins\CSC8503\CMake\DefaultCXX.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">H:\Desktop\testJenkins\CSC8503\CSC8503\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Client|x64'">false</LinkObjects>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Serve|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/CSC8503/CSC8503 Code 2024/CSC8503/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule H:/Desktop/testJenkins/CSC8503/CSC8503/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SD:/CSC8503/CSC8503 Code 2024" "-BD:/CSC8503/CSC8503 Code 2024" --check-stamp-file "D:/CSC8503/CSC8503 Code 2024/CSC8503/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" -SH:/Desktop/testJenkins/CSC8503 -BH:/Desktop/testJenkins/CSC8503 --check-stamp-file H:/Desktop/testJenkins/CSC8503/CSC8503/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -331,125 +179,106 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\CSC8503\CSC8503 Code 2024\CMake\Default.cmake;D:\CSC8503\CSC8503 Code 2024\CMake\DefaultCXX.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\CSC8503\CSC8503 Code 2024\CSC8503\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">H:\Desktop\testJenkins\CSC8503\CMake\Default.cmake;H:\Desktop\testJenkins\CSC8503\CMake\DefaultCXX.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">H:\Desktop\testJenkins\CSC8503\CSC8503\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="D:\CSC8503\CSC8503 Code 2024\CSC8503\CMakeFiles\CSC8503.dir\cmake_pch.cxx">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/CSC8503/CSC8503 Code 2024/CSC8503/CMakeFiles/CSC8503.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Client|x64'">D:/CSC8503/CSC8503 Code 2024/CSC8503/CMakeFiles/CSC8503.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Serve|x64'">D:/CSC8503/CSC8503 Code 2024/CSC8503/CMakeFiles/CSC8503.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    <ClCompile Include="H:\Desktop\testJenkins\CSC8503\CSC8503\CMakeFiles\CSC8503.dir\cmake_pch.cxx">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">H:/Desktop/testJenkins/CSC8503/CSC8503/CMakeFiles/CSC8503.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Client|x64'">Create</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Serve|x64'">Create</PrecompiledHeader>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/CSC8503/CSC8503 Code 2024/CSC8503/CMakeFiles/CSC8503.dir/Debug/cmake_pch.hxx</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Client|x64'">D:/CSC8503/CSC8503 Code 2024/CSC8503/CMakeFiles/CSC8503.dir/Debug/cmake_pch.hxx</PrecompiledHeaderFile>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Serve|x64'">D:/CSC8503/CSC8503 Code 2024/CSC8503/CMakeFiles/CSC8503.dir/Debug/cmake_pch.hxx</PrecompiledHeaderFile>
-      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/CSC8503/CSC8503 Code 2024/CSC8503/CSC8503.dir/Debug/cmake_pch.pch</PrecompiledHeaderOutputFile>
-      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Client|x64'">D:/CSC8503/CSC8503 Code 2024/CSC8503/CSC8503.dir/Debug/cmake_pch.pch</PrecompiledHeaderOutputFile>
-      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Serve|x64'">D:/CSC8503/CSC8503 Code 2024/CSC8503/CSC8503.dir/Debug/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">H:/Desktop/testJenkins/CSC8503/CSC8503/CMakeFiles/CSC8503.dir/Debug/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">H:/Desktop/testJenkins/CSC8503/CSC8503/CSC8503.dir/Debug/cmake_pch.pch</PrecompiledHeaderOutputFile>
       <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
-      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Client|x64'">false</ScanSourceforModuleDependencies>
-      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Serve|x64'">false</ScanSourceforModuleDependencies>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/CSC8503/CSC8503 Code 2024/CSC8503/CMakeFiles/CSC8503.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">H:/Desktop/testJenkins/CSC8503/CSC8503/CMakeFiles/CSC8503.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/CSC8503/CSC8503 Code 2024/CSC8503/CMakeFiles/CSC8503.dir/Release/cmake_pch.hxx</PrecompiledHeaderFile>
-      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/CSC8503/CSC8503 Code 2024/CSC8503/CSC8503.dir/Release/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">H:/Desktop/testJenkins/CSC8503/CSC8503/CMakeFiles/CSC8503.dir/Release/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">H:/Desktop/testJenkins/CSC8503/CSC8503/CSC8503.dir/Release/cmake_pch.pch</PrecompiledHeaderOutputFile>
       <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
     </ClCompile>
-    <ClCompile Include="EnemyObject.cpp" />
-    <ClCompile Include="MenuStates.cpp" />
-    <ClCompile Include="playerObject.cpp" />
-    <ClInclude Include="D:\CSC8503\CSC8503 Code 2024\CSC8503\GameTechRenderer.h" />
-    <ClInclude Include="D:\CSC8503\CSC8503 Code 2024\CSC8503\NetworkPlayer.h" />
-    <ClInclude Include="D:\CSC8503\CSC8503 Code 2024\CSC8503\NetworkedGame.h" />
-    <ClInclude Include="D:\CSC8503\CSC8503 Code 2024\CSC8503\StateGameObject.h" />
-    <ClInclude Include="D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.h" />
-    <ClCompile Include="D:\CSC8503\CSC8503 Code 2024\CSC8503\GameTechRenderer.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/CSC8503/CSC8503 Code 2024/CSC8503/CMakeFiles/CSC8503.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Client|x64'">D:/CSC8503/CSC8503 Code 2024/CSC8503/CMakeFiles/CSC8503.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Serve|x64'">D:/CSC8503/CSC8503 Code 2024/CSC8503/CMakeFiles/CSC8503.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    <ClInclude Include="H:\Desktop\testJenkins\CSC8503\CSC8503\EnemyObject.h" />
+    <ClInclude Include="H:\Desktop\testJenkins\CSC8503\CSC8503\GameTechRenderer.h" />
+    <ClInclude Include="H:\Desktop\testJenkins\CSC8503\CSC8503\MenuStates.h" />
+    <ClInclude Include="H:\Desktop\testJenkins\CSC8503\CSC8503\NetworkPlayer.h" />
+    <ClInclude Include="H:\Desktop\testJenkins\CSC8503\CSC8503\NetworkedGame.h" />
+    <ClInclude Include="H:\Desktop\testJenkins\CSC8503\CSC8503\StateGameObject.h" />
+    <ClInclude Include="H:\Desktop\testJenkins\CSC8503\CSC8503\TutorialGame.h" />
+    <ClInclude Include="H:\Desktop\testJenkins\CSC8503\CSC8503\playerObject.h" />
+    <ClCompile Include="H:\Desktop\testJenkins\CSC8503\CSC8503\EnemyObject.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">H:/Desktop/testJenkins/CSC8503/CSC8503/CMakeFiles/CSC8503.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
       <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
-      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Client|x64'">false</ScanSourceforModuleDependencies>
-      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Serve|x64'">false</ScanSourceforModuleDependencies>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/CSC8503/CSC8503 Code 2024/CSC8503/CMakeFiles/CSC8503.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">H:/Desktop/testJenkins/CSC8503/CSC8503/CMakeFiles/CSC8503.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
       <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
     </ClCompile>
-    <ClCompile Include="D:\CSC8503\CSC8503 Code 2024\CSC8503\Main.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/CSC8503/CSC8503 Code 2024/CSC8503/CMakeFiles/CSC8503.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Client|x64'">D:/CSC8503/CSC8503 Code 2024/CSC8503/CMakeFiles/CSC8503.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Serve|x64'">D:/CSC8503/CSC8503 Code 2024/CSC8503/CMakeFiles/CSC8503.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    <ClCompile Include="H:\Desktop\testJenkins\CSC8503\CSC8503\GameTechRenderer.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">H:/Desktop/testJenkins/CSC8503/CSC8503/CMakeFiles/CSC8503.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
       <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
-      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Client|x64'">false</ScanSourceforModuleDependencies>
-      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Serve|x64'">false</ScanSourceforModuleDependencies>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/CSC8503/CSC8503 Code 2024/CSC8503/CMakeFiles/CSC8503.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">H:/Desktop/testJenkins/CSC8503/CSC8503/CMakeFiles/CSC8503.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
       <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
     </ClCompile>
-    <ClCompile Include="D:\CSC8503\CSC8503 Code 2024\CSC8503\NetworkPlayer.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/CSC8503/CSC8503 Code 2024/CSC8503/CMakeFiles/CSC8503.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Client|x64'">D:/CSC8503/CSC8503 Code 2024/CSC8503/CMakeFiles/CSC8503.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Serve|x64'">D:/CSC8503/CSC8503 Code 2024/CSC8503/CMakeFiles/CSC8503.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    <ClCompile Include="H:\Desktop\testJenkins\CSC8503\CSC8503\Main.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">H:/Desktop/testJenkins/CSC8503/CSC8503/CMakeFiles/CSC8503.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
       <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
-      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Client|x64'">false</ScanSourceforModuleDependencies>
-      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Serve|x64'">false</ScanSourceforModuleDependencies>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/CSC8503/CSC8503 Code 2024/CSC8503/CMakeFiles/CSC8503.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">H:/Desktop/testJenkins/CSC8503/CSC8503/CMakeFiles/CSC8503.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
       <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
     </ClCompile>
-    <ClCompile Include="D:\CSC8503\CSC8503 Code 2024\CSC8503\NetworkedGame.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/CSC8503/CSC8503 Code 2024/CSC8503/CMakeFiles/CSC8503.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Client|x64'">D:/CSC8503/CSC8503 Code 2024/CSC8503/CMakeFiles/CSC8503.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Serve|x64'">D:/CSC8503/CSC8503 Code 2024/CSC8503/CMakeFiles/CSC8503.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    <ClCompile Include="H:\Desktop\testJenkins\CSC8503\CSC8503\MenuStates.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">H:/Desktop/testJenkins/CSC8503/CSC8503/CMakeFiles/CSC8503.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
       <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
-      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Client|x64'">false</ScanSourceforModuleDependencies>
-      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Serve|x64'">false</ScanSourceforModuleDependencies>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/CSC8503/CSC8503 Code 2024/CSC8503/CMakeFiles/CSC8503.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">H:/Desktop/testJenkins/CSC8503/CSC8503/CMakeFiles/CSC8503.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
       <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
     </ClCompile>
-    <ClCompile Include="D:\CSC8503\CSC8503 Code 2024\CSC8503\StateGameObject.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/CSC8503/CSC8503 Code 2024/CSC8503/CMakeFiles/CSC8503.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Client|x64'">D:/CSC8503/CSC8503 Code 2024/CSC8503/CMakeFiles/CSC8503.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Serve|x64'">D:/CSC8503/CSC8503 Code 2024/CSC8503/CMakeFiles/CSC8503.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    <ClCompile Include="H:\Desktop\testJenkins\CSC8503\CSC8503\NetworkPlayer.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">H:/Desktop/testJenkins/CSC8503/CSC8503/CMakeFiles/CSC8503.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
       <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
-      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Client|x64'">false</ScanSourceforModuleDependencies>
-      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Serve|x64'">false</ScanSourceforModuleDependencies>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/CSC8503/CSC8503 Code 2024/CSC8503/CMakeFiles/CSC8503.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">H:/Desktop/testJenkins/CSC8503/CSC8503/CMakeFiles/CSC8503.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
       <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
     </ClCompile>
-    <ClCompile Include="D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.cpp">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/CSC8503/CSC8503 Code 2024/CSC8503/CMakeFiles/CSC8503.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Client|x64'">D:/CSC8503/CSC8503 Code 2024/CSC8503/CMakeFiles/CSC8503.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Serve|x64'">D:/CSC8503/CSC8503 Code 2024/CSC8503/CMakeFiles/CSC8503.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    <ClCompile Include="H:\Desktop\testJenkins\CSC8503\CSC8503\NetworkedGame.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">H:/Desktop/testJenkins/CSC8503/CSC8503/CMakeFiles/CSC8503.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
       <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
-      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Client|x64'">false</ScanSourceforModuleDependencies>
-      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Serve|x64'">false</ScanSourceforModuleDependencies>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/CSC8503/CSC8503 Code 2024/CSC8503/CMakeFiles/CSC8503.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">H:/Desktop/testJenkins/CSC8503/CSC8503/CMakeFiles/CSC8503.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
       <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
     </ClCompile>
-    <ClInclude Include="D:\CSC8503\CSC8503 Code 2024\CSC8503\CMakeFiles\CSC8503.dir\Debug\cmake_pch.hxx" />
-    <ClInclude Include="D:\CSC8503\CSC8503 Code 2024\CSC8503\CMakeFiles\CSC8503.dir\Release\cmake_pch.hxx" />
-    <ClInclude Include="EnemyObject.h" />
-    <ClInclude Include="MenuStates.h" />
-    <ClInclude Include="playerObject.h" />
+    <ClCompile Include="H:\Desktop\testJenkins\CSC8503\CSC8503\StateGameObject.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">H:/Desktop/testJenkins/CSC8503/CSC8503/CMakeFiles/CSC8503.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">H:/Desktop/testJenkins/CSC8503/CSC8503/CMakeFiles/CSC8503.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="H:\Desktop\testJenkins\CSC8503\CSC8503\TutorialGame.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">H:/Desktop/testJenkins/CSC8503/CSC8503/CMakeFiles/CSC8503.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">H:/Desktop/testJenkins/CSC8503/CSC8503/CMakeFiles/CSC8503.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="H:\Desktop\testJenkins\CSC8503\CSC8503\playerObject.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">H:/Desktop/testJenkins/CSC8503/CSC8503/CMakeFiles/CSC8503.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">H:/Desktop/testJenkins/CSC8503/CSC8503/CMakeFiles/CSC8503.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClInclude Include="H:\Desktop\testJenkins\CSC8503\CSC8503\CMakeFiles\CSC8503.dir\Debug\cmake_pch.hxx" />
+    <ClInclude Include="H:\Desktop\testJenkins\CSC8503\CSC8503\CMakeFiles\CSC8503.dir\Release\cmake_pch.hxx" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="D:\CSC8503\CSC8503 Code 2024\ZERO_CHECK.vcxproj">
-      <Project>{52804292-C5A0-34AA-BDEF-9C58409EFD7D}</Project>
+    <ProjectReference Include="H:\Desktop\testJenkins\CSC8503\ZERO_CHECK.vcxproj">
+      <Project>{D4A9F0B4-319C-3781-9F98-A3E5E5C52DA3}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="D:\CSC8503\CSC8503 Code 2024\CSC8503CoreClasses\CSC8503CoreClasses.vcxproj">
-      <Project>{2A588107-13B7-3ABD-AC7E-B47E48F96562}</Project>
+    <ProjectReference Include="H:\Desktop\testJenkins\CSC8503\CSC8503CoreClasses\CSC8503CoreClasses.vcxproj">
+      <Project>{9543AC46-C5A4-3E35-862F-72964F01DDE6}</Project>
       <Name>CSC8503CoreClasses</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\CSC8503\CSC8503 Code 2024\NCLCoreClasses\NCLCoreClasses.vcxproj">
-      <Project>{E779FA2E-118B-31B9-B305-11035D6E0380}</Project>
+    <ProjectReference Include="H:\Desktop\testJenkins\CSC8503\NCLCoreClasses\NCLCoreClasses.vcxproj">
+      <Project>{68E390C8-A48E-31C0-9C88-7E7B64E25C9F}</Project>
       <Name>NCLCoreClasses</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\CSC8503\CSC8503 Code 2024\OpenGLRendering\OpenGLRendering.vcxproj">
-      <Project>{9730A8E4-F85B-3DCD-B218-0B299DD93A6F}</Project>
+    <ProjectReference Include="H:\Desktop\testJenkins\CSC8503\OpenGLRendering\OpenGLRendering.vcxproj">
+      <Project>{FA78CD1C-5610-38AB-A41E-986C508F0B38}</Project>
       <Name>OpenGLRendering</Name>
     </ProjectReference>
   </ItemGroup>

@@ -1,81 +1,81 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="D:\CSC8503\CSC8503 Code 2024\CSC8503\CMakeFiles\CSC8503.dir\cmake_pch.cxx">
+    <ClCompile Include="H:\Desktop\testJenkins\CSC8503\CSC8503\CMakeFiles\CSC8503.dir\cmake_pch.cxx">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\CSC8503\CSC8503 Code 2024\CSC8503\GameTechRenderer.cpp">
+    <ClCompile Include="H:\Desktop\testJenkins\CSC8503\CSC8503\EnemyObject.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\CSC8503\CSC8503 Code 2024\CSC8503\Main.cpp">
+    <ClCompile Include="H:\Desktop\testJenkins\CSC8503\CSC8503\GameTechRenderer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\CSC8503\CSC8503 Code 2024\CSC8503\NetworkPlayer.cpp">
+    <ClCompile Include="H:\Desktop\testJenkins\CSC8503\CSC8503\Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\CSC8503\CSC8503 Code 2024\CSC8503\NetworkedGame.cpp">
+    <ClCompile Include="H:\Desktop\testJenkins\CSC8503\CSC8503\MenuStates.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\CSC8503\CSC8503 Code 2024\CSC8503\StateGameObject.cpp">
+    <ClCompile Include="H:\Desktop\testJenkins\CSC8503\CSC8503\NetworkPlayer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.cpp">
+    <ClCompile Include="H:\Desktop\testJenkins\CSC8503\CSC8503\NetworkedGame.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="MenuStates.cpp">
+    <ClCompile Include="H:\Desktop\testJenkins\CSC8503\CSC8503\StateGameObject.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="EnemyObject.cpp">
+    <ClCompile Include="H:\Desktop\testJenkins\CSC8503\CSC8503\TutorialGame.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="playerObject.cpp">
+    <ClCompile Include="H:\Desktop\testJenkins\CSC8503\CSC8503\playerObject.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="D:\CSC8503\CSC8503 Code 2024\CSC8503\GameTechRenderer.h">
+    <ClInclude Include="H:\Desktop\testJenkins\CSC8503\CSC8503\EnemyObject.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\CSC8503\CSC8503 Code 2024\CSC8503\NetworkPlayer.h">
+    <ClInclude Include="H:\Desktop\testJenkins\CSC8503\CSC8503\GameTechRenderer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\CSC8503\CSC8503 Code 2024\CSC8503\NetworkedGame.h">
+    <ClInclude Include="H:\Desktop\testJenkins\CSC8503\CSC8503\MenuStates.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\CSC8503\CSC8503 Code 2024\CSC8503\StateGameObject.h">
+    <ClInclude Include="H:\Desktop\testJenkins\CSC8503\CSC8503\NetworkPlayer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\CSC8503\CSC8503 Code 2024\CSC8503\TutorialGame.h">
+    <ClInclude Include="H:\Desktop\testJenkins\CSC8503\CSC8503\NetworkedGame.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\CSC8503\CSC8503 Code 2024\CSC8503\CMakeFiles\CSC8503.dir\Debug\cmake_pch.hxx">
+    <ClInclude Include="H:\Desktop\testJenkins\CSC8503\CSC8503\StateGameObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="H:\Desktop\testJenkins\CSC8503\CSC8503\TutorialGame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="H:\Desktop\testJenkins\CSC8503\CSC8503\playerObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="H:\Desktop\testJenkins\CSC8503\CSC8503\CMakeFiles\CSC8503.dir\Debug\cmake_pch.hxx">
       <Filter>Precompile Header File</Filter>
     </ClInclude>
-    <ClInclude Include="D:\CSC8503\CSC8503 Code 2024\CSC8503\CMakeFiles\CSC8503.dir\Release\cmake_pch.hxx">
+    <ClInclude Include="H:\Desktop\testJenkins\CSC8503\CSC8503\CMakeFiles\CSC8503.dir\Release\cmake_pch.hxx">
       <Filter>Precompile Header File</Filter>
-    </ClInclude>
-    <ClInclude Include="MenuStates.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="playerObject.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="EnemyObject.h">
-      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\CSC8503\CSC8503 Code 2024\CSC8503\CMakeLists.txt" />
+    <CustomBuild Include="H:\Desktop\testJenkins\CSC8503\CSC8503\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{6832382D-4AFE-32F2-809A-68BFFF1E923E}</UniqueIdentifier>
+      <UniqueIdentifier>{249C83DB-4983-34BD-A8A2-31775A1F343C}</UniqueIdentifier>
     </Filter>
     <Filter Include="Precompile Header File">
-      <UniqueIdentifier>{E8B5052B-5565-380D-8FB9-515451BDE8F9}</UniqueIdentifier>
+      <UniqueIdentifier>{141D30CA-428F-3A8D-A6BF-922ADDEE718C}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{9FFB2B7F-3AD9-363E-9C3F-68C9A9D7B8B3}</UniqueIdentifier>
+      <UniqueIdentifier>{1D17F554-B4CF-3F31-9ADA-51A5ACC819FE}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

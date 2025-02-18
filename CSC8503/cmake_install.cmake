@@ -1,4 +1,4 @@
-# Install script for directory: D:/CSC8503/CSC8503 Code 2024/CSC8503
+# Install script for directory: H:/Desktop/testJenkins/CSC8503/CSC8503
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

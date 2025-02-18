@@ -1,285 +1,285 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="D:\CSC8503\CSC8503 Code 2024\CSC8503CoreClasses\CMakeFiles\CSC8503CoreClasses.dir\cmake_pch.cxx">
+    <ClCompile Include="H:\Desktop\testJenkins\CSC8503\CSC8503CoreClasses\CMakeFiles\CSC8503CoreClasses.dir\cmake_pch.cxx">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\CSC8503\CSC8503 Code 2024\CSC8503CoreClasses\Debug.h">
+    <ClCompile Include="H:\Desktop\testJenkins\CSC8503\CSC8503CoreClasses\Debug.h">
       <Filter>Header Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\CSC8503\CSC8503 Code 2024\CSC8503CoreClasses\GameObject.h">
+    <ClCompile Include="H:\Desktop\testJenkins\CSC8503\CSC8503CoreClasses\GameObject.h">
       <Filter>Header Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\CSC8503\CSC8503 Code 2024\CSC8503CoreClasses\GameWorld.h">
+    <ClCompile Include="H:\Desktop\testJenkins\CSC8503\CSC8503CoreClasses\GameWorld.h">
       <Filter>Header Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\CSC8503\CSC8503 Code 2024\CSC8503CoreClasses\RenderObject.h">
+    <ClCompile Include="H:\Desktop\testJenkins\CSC8503\CSC8503CoreClasses\RenderObject.h">
       <Filter>Header Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\CSC8503\CSC8503 Code 2024\CSC8503CoreClasses\Transform.h">
+    <ClCompile Include="H:\Desktop\testJenkins\CSC8503\CSC8503CoreClasses\Transform.h">
       <Filter>Header Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\CSC8503\CSC8503 Code 2024\CSC8503CoreClasses\Debug.cpp">
+    <ClCompile Include="H:\Desktop\testJenkins\CSC8503\CSC8503CoreClasses\Debug.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\CSC8503\CSC8503 Code 2024\CSC8503CoreClasses\GameObject.cpp">
+    <ClCompile Include="H:\Desktop\testJenkins\CSC8503\CSC8503CoreClasses\GameObject.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\CSC8503\CSC8503 Code 2024\CSC8503CoreClasses\GameWorld.cpp">
+    <ClCompile Include="H:\Desktop\testJenkins\CSC8503\CSC8503CoreClasses\GameWorld.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\CSC8503\CSC8503 Code 2024\CSC8503CoreClasses\RenderObject.cpp">
+    <ClCompile Include="H:\Desktop\testJenkins\CSC8503\CSC8503CoreClasses\RenderObject.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\CSC8503\CSC8503 Code 2024\CSC8503CoreClasses\Transform.cpp">
+    <ClCompile Include="H:\Desktop\testJenkins\CSC8503\CSC8503CoreClasses\Transform.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\CSC8503\CSC8503 Code 2024\CSC8503CoreClasses\BehaviourAction.h">
+    <ClCompile Include="H:\Desktop\testJenkins\CSC8503\CSC8503CoreClasses\BehaviourAction.h">
       <Filter>AI\Behaviour Trees</Filter>
     </ClCompile>
-    <ClCompile Include="D:\CSC8503\CSC8503 Code 2024\CSC8503CoreClasses\BehaviourNode.h">
+    <ClCompile Include="H:\Desktop\testJenkins\CSC8503\CSC8503CoreClasses\BehaviourNode.h">
       <Filter>AI\Behaviour Trees</Filter>
     </ClCompile>
-    <ClCompile Include="D:\CSC8503\CSC8503 Code 2024\CSC8503CoreClasses\BehaviourNodeWithChildren.h">
+    <ClCompile Include="H:\Desktop\testJenkins\CSC8503\CSC8503CoreClasses\BehaviourNodeWithChildren.h">
       <Filter>AI\Behaviour Trees</Filter>
     </ClCompile>
-    <ClCompile Include="D:\CSC8503\CSC8503 Code 2024\CSC8503CoreClasses\BehaviourSelector.h">
+    <ClCompile Include="H:\Desktop\testJenkins\CSC8503\CSC8503CoreClasses\BehaviourSelector.h">
       <Filter>AI\Behaviour Trees</Filter>
     </ClCompile>
-    <ClCompile Include="D:\CSC8503\CSC8503 Code 2024\CSC8503CoreClasses\BehaviourSelector.cpp">
+    <ClCompile Include="H:\Desktop\testJenkins\CSC8503\CSC8503CoreClasses\BehaviourSelector.cpp">
       <Filter>AI\Behaviour Trees</Filter>
     </ClCompile>
-    <ClCompile Include="D:\CSC8503\CSC8503 Code 2024\CSC8503CoreClasses\BehaviourSequence.h">
+    <ClCompile Include="H:\Desktop\testJenkins\CSC8503\CSC8503CoreClasses\BehaviourSequence.h">
       <Filter>AI\Behaviour Trees</Filter>
     </ClCompile>
-    <ClCompile Include="D:\CSC8503\CSC8503 Code 2024\CSC8503CoreClasses\BehaviourSequence.cpp">
+    <ClCompile Include="H:\Desktop\testJenkins\CSC8503\CSC8503CoreClasses\BehaviourSequence.cpp">
       <Filter>AI\Behaviour Trees</Filter>
     </ClCompile>
-    <ClCompile Include="D:\CSC8503\CSC8503 Code 2024\CSC8503CoreClasses\PushdownMachine.h">
+    <ClCompile Include="H:\Desktop\testJenkins\CSC8503\CSC8503CoreClasses\PushdownMachine.h">
       <Filter>AI\Pushdown Automata</Filter>
     </ClCompile>
-    <ClCompile Include="D:\CSC8503\CSC8503 Code 2024\CSC8503CoreClasses\PushdownMachine.cpp">
+    <ClCompile Include="H:\Desktop\testJenkins\CSC8503\CSC8503CoreClasses\PushdownMachine.cpp">
       <Filter>AI\Pushdown Automata</Filter>
     </ClCompile>
-    <ClCompile Include="D:\CSC8503\CSC8503 Code 2024\CSC8503CoreClasses\PushdownState.h">
+    <ClCompile Include="H:\Desktop\testJenkins\CSC8503\CSC8503CoreClasses\PushdownState.h">
       <Filter>AI\Pushdown Automata</Filter>
     </ClCompile>
-    <ClCompile Include="D:\CSC8503\CSC8503 Code 2024\CSC8503CoreClasses\PushdownState.cpp">
+    <ClCompile Include="H:\Desktop\testJenkins\CSC8503\CSC8503CoreClasses\PushdownState.cpp">
       <Filter>AI\Pushdown Automata</Filter>
     </ClCompile>
-    <ClCompile Include="D:\CSC8503\CSC8503 Code 2024\CSC8503CoreClasses\State.h">
+    <ClCompile Include="H:\Desktop\testJenkins\CSC8503\CSC8503CoreClasses\State.h">
       <Filter>AI\State Machine</Filter>
     </ClCompile>
-    <ClCompile Include="D:\CSC8503\CSC8503 Code 2024\CSC8503CoreClasses\StateMachine.h">
+    <ClCompile Include="H:\Desktop\testJenkins\CSC8503\CSC8503CoreClasses\StateMachine.h">
       <Filter>AI\State Machine</Filter>
     </ClCompile>
-    <ClCompile Include="D:\CSC8503\CSC8503 Code 2024\CSC8503CoreClasses\StateMachine.cpp">
+    <ClCompile Include="H:\Desktop\testJenkins\CSC8503\CSC8503CoreClasses\StateMachine.cpp">
       <Filter>AI\State Machine</Filter>
     </ClCompile>
-    <ClCompile Include="D:\CSC8503\CSC8503 Code 2024\CSC8503CoreClasses\StateTransition.h">
+    <ClCompile Include="H:\Desktop\testJenkins\CSC8503\CSC8503CoreClasses\StateTransition.h">
       <Filter>AI\State Machine</Filter>
     </ClCompile>
-    <ClCompile Include="D:\CSC8503\CSC8503 Code 2024\CSC8503CoreClasses\NavigationGrid.h">
+    <ClCompile Include="H:\Desktop\testJenkins\CSC8503\CSC8503CoreClasses\NavigationGrid.h">
       <Filter>AI\Pathfinding</Filter>
     </ClCompile>
-    <ClCompile Include="D:\CSC8503\CSC8503 Code 2024\CSC8503CoreClasses\NavigationGrid.cpp">
+    <ClCompile Include="H:\Desktop\testJenkins\CSC8503\CSC8503CoreClasses\NavigationGrid.cpp">
       <Filter>AI\Pathfinding</Filter>
     </ClCompile>
-    <ClCompile Include="D:\CSC8503\CSC8503 Code 2024\CSC8503CoreClasses\NavigationMesh.cpp">
+    <ClCompile Include="H:\Desktop\testJenkins\CSC8503\CSC8503CoreClasses\NavigationMesh.cpp">
       <Filter>AI\Pathfinding</Filter>
     </ClCompile>
-    <ClCompile Include="D:\CSC8503\CSC8503 Code 2024\CSC8503CoreClasses\NavigationMesh.h">
+    <ClCompile Include="H:\Desktop\testJenkins\CSC8503\CSC8503CoreClasses\NavigationMesh.h">
       <Filter>AI\Pathfinding</Filter>
     </ClCompile>
-    <ClCompile Include="D:\CSC8503\CSC8503 Code 2024\CSC8503CoreClasses\NavigationMap.h">
+    <ClCompile Include="H:\Desktop\testJenkins\CSC8503\CSC8503CoreClasses\NavigationMap.h">
       <Filter>AI\Pathfinding</Filter>
     </ClCompile>
-    <ClCompile Include="D:\CSC8503\CSC8503 Code 2024\CSC8503CoreClasses\NavigationPath.h">
+    <ClCompile Include="H:\Desktop\testJenkins\CSC8503\CSC8503CoreClasses\NavigationPath.h">
       <Filter>AI\Pathfinding</Filter>
     </ClCompile>
-    <ClCompile Include="D:\CSC8503\CSC8503 Code 2024\CSC8503CoreClasses\AABBVolume.h">
+    <ClCompile Include="H:\Desktop\testJenkins\CSC8503\CSC8503CoreClasses\AABBVolume.h">
       <Filter>Collision Detection</Filter>
     </ClCompile>
-    <ClCompile Include="D:\CSC8503\CSC8503 Code 2024\CSC8503CoreClasses\CapsuleVolume.h">
+    <ClCompile Include="H:\Desktop\testJenkins\CSC8503\CSC8503CoreClasses\CapsuleVolume.h">
       <Filter>Collision Detection</Filter>
     </ClCompile>
-    <ClCompile Include="D:\CSC8503\CSC8503 Code 2024\CSC8503CoreClasses\CapsuleVolume.cpp">
+    <ClCompile Include="H:\Desktop\testJenkins\CSC8503\CSC8503CoreClasses\CapsuleVolume.cpp">
       <Filter>Collision Detection</Filter>
     </ClCompile>
-    <ClCompile Include="D:\CSC8503\CSC8503 Code 2024\CSC8503CoreClasses\CollisionDetection.h">
+    <ClCompile Include="H:\Desktop\testJenkins\CSC8503\CSC8503CoreClasses\CollisionDetection.h">
       <Filter>Collision Detection</Filter>
     </ClCompile>
-    <ClCompile Include="D:\CSC8503\CSC8503 Code 2024\CSC8503CoreClasses\CollisionDetection.cpp">
+    <ClCompile Include="H:\Desktop\testJenkins\CSC8503\CSC8503CoreClasses\CollisionDetection.cpp">
       <Filter>Collision Detection</Filter>
     </ClCompile>
-    <ClCompile Include="D:\CSC8503\CSC8503 Code 2024\CSC8503CoreClasses\CollisionVolume.h">
+    <ClCompile Include="H:\Desktop\testJenkins\CSC8503\CSC8503CoreClasses\CollisionVolume.h">
       <Filter>Collision Detection</Filter>
     </ClCompile>
-    <ClCompile Include="D:\CSC8503\CSC8503 Code 2024\CSC8503CoreClasses\OBBVolume.h">
+    <ClCompile Include="H:\Desktop\testJenkins\CSC8503\CSC8503CoreClasses\OBBVolume.h">
       <Filter>Collision Detection</Filter>
     </ClCompile>
-    <ClCompile Include="D:\CSC8503\CSC8503 Code 2024\CSC8503CoreClasses\QuadTree.h">
+    <ClCompile Include="H:\Desktop\testJenkins\CSC8503\CSC8503CoreClasses\QuadTree.h">
       <Filter>Collision Detection</Filter>
     </ClCompile>
-    <ClCompile Include="D:\CSC8503\CSC8503 Code 2024\CSC8503CoreClasses\QuadTree.cpp">
+    <ClCompile Include="H:\Desktop\testJenkins\CSC8503\CSC8503CoreClasses\QuadTree.cpp">
       <Filter>Collision Detection</Filter>
     </ClCompile>
-    <ClCompile Include="D:\CSC8503\CSC8503 Code 2024\CSC8503CoreClasses\Ray.h">
+    <ClCompile Include="H:\Desktop\testJenkins\CSC8503\CSC8503CoreClasses\Ray.h">
       <Filter>Collision Detection</Filter>
     </ClCompile>
-    <ClCompile Include="D:\CSC8503\CSC8503 Code 2024\CSC8503CoreClasses\SphereVolume.h">
+    <ClCompile Include="H:\Desktop\testJenkins\CSC8503\CSC8503CoreClasses\SphereVolume.h">
       <Filter>Collision Detection</Filter>
     </ClCompile>
-    <ClCompile Include="D:\CSC8503\CSC8503 Code 2024\CSC8503CoreClasses\GameClient.h">
+    <ClCompile Include="H:\Desktop\testJenkins\CSC8503\CSC8503CoreClasses\GameClient.h">
       <Filter>Networking</Filter>
     </ClCompile>
-    <ClCompile Include="D:\CSC8503\CSC8503 Code 2024\CSC8503CoreClasses\GameClient.cpp">
+    <ClCompile Include="H:\Desktop\testJenkins\CSC8503\CSC8503CoreClasses\GameClient.cpp">
       <Filter>Networking</Filter>
     </ClCompile>
-    <ClCompile Include="D:\CSC8503\CSC8503 Code 2024\CSC8503CoreClasses\GameServer.h">
+    <ClCompile Include="H:\Desktop\testJenkins\CSC8503\CSC8503CoreClasses\GameServer.h">
       <Filter>Networking</Filter>
     </ClCompile>
-    <ClCompile Include="D:\CSC8503\CSC8503 Code 2024\CSC8503CoreClasses\GameServer.cpp">
+    <ClCompile Include="H:\Desktop\testJenkins\CSC8503\CSC8503CoreClasses\GameServer.cpp">
       <Filter>Networking</Filter>
     </ClCompile>
-    <ClCompile Include="D:\CSC8503\CSC8503 Code 2024\CSC8503CoreClasses\NetworkBase.h">
+    <ClCompile Include="H:\Desktop\testJenkins\CSC8503\CSC8503CoreClasses\NetworkBase.h">
       <Filter>Networking</Filter>
     </ClCompile>
-    <ClCompile Include="D:\CSC8503\CSC8503 Code 2024\CSC8503CoreClasses\NetworkBase.cpp">
+    <ClCompile Include="H:\Desktop\testJenkins\CSC8503\CSC8503CoreClasses\NetworkBase.cpp">
       <Filter>Networking</Filter>
     </ClCompile>
-    <ClCompile Include="D:\CSC8503\CSC8503 Code 2024\CSC8503CoreClasses\NetworkObject.h">
+    <ClCompile Include="H:\Desktop\testJenkins\CSC8503\CSC8503CoreClasses\NetworkObject.h">
       <Filter>Networking</Filter>
     </ClCompile>
-    <ClCompile Include="D:\CSC8503\CSC8503 Code 2024\CSC8503CoreClasses\NetworkObject.cpp">
+    <ClCompile Include="H:\Desktop\testJenkins\CSC8503\CSC8503CoreClasses\NetworkObject.cpp">
       <Filter>Networking</Filter>
     </ClCompile>
-    <ClCompile Include="D:\CSC8503\CSC8503 Code 2024\CSC8503CoreClasses\NetworkState.h">
+    <ClCompile Include="H:\Desktop\testJenkins\CSC8503\CSC8503CoreClasses\NetworkState.h">
       <Filter>Networking</Filter>
     </ClCompile>
-    <ClCompile Include="D:\CSC8503\CSC8503 Code 2024\CSC8503CoreClasses\NetworkState.cpp">
+    <ClCompile Include="H:\Desktop\testJenkins\CSC8503\CSC8503CoreClasses\NetworkState.cpp">
       <Filter>Networking</Filter>
     </ClCompile>
-    <ClCompile Include="D:\CSC8503\CSC8503 Code 2024\CSC8503CoreClasses\Constraint.h">
+    <ClCompile Include="H:\Desktop\testJenkins\CSC8503\CSC8503CoreClasses\Constraint.h">
       <Filter>Physics</Filter>
     </ClCompile>
-    <ClCompile Include="D:\CSC8503\CSC8503 Code 2024\CSC8503CoreClasses\PositionConstraint.cpp">
+    <ClCompile Include="H:\Desktop\testJenkins\CSC8503\CSC8503CoreClasses\PositionConstraint.cpp">
       <Filter>Physics</Filter>
     </ClCompile>
-    <ClCompile Include="D:\CSC8503\CSC8503 Code 2024\CSC8503CoreClasses\PositionConstraint.h">
+    <ClCompile Include="H:\Desktop\testJenkins\CSC8503\CSC8503CoreClasses\PositionConstraint.h">
       <Filter>Physics</Filter>
     </ClCompile>
-    <ClCompile Include="D:\CSC8503\CSC8503 Code 2024\CSC8503CoreClasses\OrientationConstraint.cpp">
+    <ClCompile Include="H:\Desktop\testJenkins\CSC8503\CSC8503CoreClasses\OrientationConstraint.cpp">
       <Filter>Physics</Filter>
     </ClCompile>
-    <ClCompile Include="D:\CSC8503\CSC8503 Code 2024\CSC8503CoreClasses\OrientationConstraint.h">
+    <ClCompile Include="H:\Desktop\testJenkins\CSC8503\CSC8503CoreClasses\OrientationConstraint.h">
       <Filter>Physics</Filter>
     </ClCompile>
-    <ClCompile Include="D:\CSC8503\CSC8503 Code 2024\CSC8503CoreClasses\PhysicsObject.cpp">
+    <ClCompile Include="H:\Desktop\testJenkins\CSC8503\CSC8503CoreClasses\PhysicsObject.cpp">
       <Filter>Physics</Filter>
     </ClCompile>
-    <ClCompile Include="D:\CSC8503\CSC8503 Code 2024\CSC8503CoreClasses\PhysicsObject.h">
+    <ClCompile Include="H:\Desktop\testJenkins\CSC8503\CSC8503CoreClasses\PhysicsObject.h">
       <Filter>Physics</Filter>
     </ClCompile>
-    <ClCompile Include="D:\CSC8503\CSC8503 Code 2024\CSC8503CoreClasses\PhysicsSystem.cpp">
+    <ClCompile Include="H:\Desktop\testJenkins\CSC8503\CSC8503CoreClasses\PhysicsSystem.cpp">
       <Filter>Physics</Filter>
     </ClCompile>
-    <ClCompile Include="D:\CSC8503\CSC8503 Code 2024\CSC8503CoreClasses\PhysicsSystem.h">
+    <ClCompile Include="H:\Desktop\testJenkins\CSC8503\CSC8503CoreClasses\PhysicsSystem.h">
       <Filter>Physics</Filter>
     </ClCompile>
-    <ClCompile Include="D:\CSC8503\CSC8503 Code 2024\CSC8503CoreClasses\enet\callbacks.c">
+    <ClCompile Include="H:\Desktop\testJenkins\CSC8503\CSC8503CoreClasses\enet\callbacks.c">
       <Filter>eNet</Filter>
     </ClCompile>
-    <ClCompile Include="D:\CSC8503\CSC8503 Code 2024\CSC8503CoreClasses\enet\list.h">
+    <ClCompile Include="H:\Desktop\testJenkins\CSC8503\CSC8503CoreClasses\enet\list.h">
       <Filter>eNet</Filter>
     </ClCompile>
-    <ClCompile Include="D:\CSC8503\CSC8503 Code 2024\CSC8503CoreClasses\enet\list.c">
+    <ClCompile Include="H:\Desktop\testJenkins\CSC8503\CSC8503CoreClasses\enet\list.c">
       <Filter>eNet</Filter>
     </ClCompile>
-    <ClCompile Include="D:\CSC8503\CSC8503 Code 2024\CSC8503CoreClasses\enet\protocol.h">
+    <ClCompile Include="H:\Desktop\testJenkins\CSC8503\CSC8503CoreClasses\enet\protocol.h">
       <Filter>eNet</Filter>
     </ClCompile>
-    <ClCompile Include="D:\CSC8503\CSC8503 Code 2024\CSC8503CoreClasses\enet\protocol.c">
+    <ClCompile Include="H:\Desktop\testJenkins\CSC8503\CSC8503CoreClasses\enet\protocol.c">
       <Filter>eNet</Filter>
     </ClCompile>
-    <ClCompile Include="D:\CSC8503\CSC8503 Code 2024\CSC8503CoreClasses\enet\win32.h">
+    <ClCompile Include="H:\Desktop\testJenkins\CSC8503\CSC8503CoreClasses\enet\win32.h">
       <Filter>eNet</Filter>
     </ClCompile>
-    <ClCompile Include="D:\CSC8503\CSC8503 Code 2024\CSC8503CoreClasses\enet\win32.c">
+    <ClCompile Include="H:\Desktop\testJenkins\CSC8503\CSC8503CoreClasses\enet\win32.c">
       <Filter>eNet</Filter>
     </ClCompile>
-    <ClCompile Include="D:\CSC8503\CSC8503 Code 2024\CSC8503CoreClasses\enet\enet.h">
+    <ClCompile Include="H:\Desktop\testJenkins\CSC8503\CSC8503CoreClasses\enet\enet.h">
       <Filter>eNet</Filter>
     </ClCompile>
-    <ClCompile Include="D:\CSC8503\CSC8503 Code 2024\CSC8503CoreClasses\enet\time.h">
+    <ClCompile Include="H:\Desktop\testJenkins\CSC8503\CSC8503CoreClasses\enet\time.h">
       <Filter>eNet</Filter>
     </ClCompile>
-    <ClCompile Include="D:\CSC8503\CSC8503 Code 2024\CSC8503CoreClasses\enet\types.h">
+    <ClCompile Include="H:\Desktop\testJenkins\CSC8503\CSC8503CoreClasses\enet\types.h">
       <Filter>eNet</Filter>
     </ClCompile>
-    <ClCompile Include="D:\CSC8503\CSC8503 Code 2024\CSC8503CoreClasses\enet\utility.h">
+    <ClCompile Include="H:\Desktop\testJenkins\CSC8503\CSC8503CoreClasses\enet\utility.h">
       <Filter>eNet</Filter>
     </ClCompile>
-    <ClCompile Include="D:\CSC8503\CSC8503 Code 2024\CSC8503CoreClasses\enet\compress.c">
+    <ClCompile Include="H:\Desktop\testJenkins\CSC8503\CSC8503CoreClasses\enet\compress.c">
       <Filter>eNet</Filter>
     </ClCompile>
-    <ClCompile Include="D:\CSC8503\CSC8503 Code 2024\CSC8503CoreClasses\enet\host.c">
+    <ClCompile Include="H:\Desktop\testJenkins\CSC8503\CSC8503CoreClasses\enet\host.c">
       <Filter>eNet</Filter>
     </ClCompile>
-    <ClCompile Include="D:\CSC8503\CSC8503 Code 2024\CSC8503CoreClasses\enet\packet.c">
+    <ClCompile Include="H:\Desktop\testJenkins\CSC8503\CSC8503CoreClasses\enet\packet.c">
       <Filter>eNet</Filter>
     </ClCompile>
-    <ClCompile Include="D:\CSC8503\CSC8503 Code 2024\CSC8503CoreClasses\enet\peer.c">
+    <ClCompile Include="H:\Desktop\testJenkins\CSC8503\CSC8503CoreClasses\enet\peer.c">
       <Filter>eNet</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="D:\CSC8503\CSC8503 Code 2024\CSC8503CoreClasses\CMakeFiles\CSC8503CoreClasses.dir\Debug\cmake_pch.hxx">
+    <ClInclude Include="H:\Desktop\testJenkins\CSC8503\CSC8503CoreClasses\CMakeFiles\CSC8503CoreClasses.dir\Debug\cmake_pch.hxx">
       <Filter>Precompile Header File</Filter>
     </ClInclude>
-    <ClInclude Include="D:\CSC8503\CSC8503 Code 2024\CSC8503CoreClasses\CMakeFiles\CSC8503CoreClasses.dir\Release\cmake_pch.hxx">
+    <ClInclude Include="H:\Desktop\testJenkins\CSC8503\CSC8503CoreClasses\CMakeFiles\CSC8503CoreClasses.dir\Release\cmake_pch.hxx">
       <Filter>Precompile Header File</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\CSC8503\CSC8503 Code 2024\CSC8503CoreClasses\CMakeLists.txt" />
+    <CustomBuild Include="H:\Desktop\testJenkins\CSC8503\CSC8503CoreClasses\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="AI">
-      <UniqueIdentifier>{1A3F90F8-461C-3E22-ADC8-74FF3E6AAC30}</UniqueIdentifier>
+      <UniqueIdentifier>{DA5A714D-1396-357B-9D95-23BAE482721B}</UniqueIdentifier>
     </Filter>
     <Filter Include="AI\Behaviour Trees">
-      <UniqueIdentifier>{0F125E28-B9B1-30A3-B7FF-6E581D0AA996}</UniqueIdentifier>
+      <UniqueIdentifier>{0D6A575D-3FB5-3DC9-B873-3BB2496D2E61}</UniqueIdentifier>
     </Filter>
     <Filter Include="AI\Pathfinding">
-      <UniqueIdentifier>{6066C805-59F9-3A46-AAE5-1E6AF84B5F34}</UniqueIdentifier>
+      <UniqueIdentifier>{68E702FE-255C-3B7F-9DEE-0C9439EE1281}</UniqueIdentifier>
     </Filter>
     <Filter Include="AI\Pushdown Automata">
-      <UniqueIdentifier>{9AE79ECE-4FC2-354D-9CEF-3C62B8F6AB12}</UniqueIdentifier>
+      <UniqueIdentifier>{D96560A3-97C7-3379-AFCD-C9A96C395837}</UniqueIdentifier>
     </Filter>
     <Filter Include="AI\State Machine">
-      <UniqueIdentifier>{E444AE27-004D-3DB3-999A-8C3DF62B35A5}</UniqueIdentifier>
+      <UniqueIdentifier>{F5F6B301-B624-33D6-B5D3-9B38ED0EFF4E}</UniqueIdentifier>
     </Filter>
     <Filter Include="Collision Detection">
-      <UniqueIdentifier>{71785258-01E8-3C98-A1BA-4A4EC1AEFCA8}</UniqueIdentifier>
+      <UniqueIdentifier>{AD741109-F329-3E91-884E-EB54B2904F23}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{6832382D-4AFE-32F2-809A-68BFFF1E923E}</UniqueIdentifier>
+      <UniqueIdentifier>{249C83DB-4983-34BD-A8A2-31775A1F343C}</UniqueIdentifier>
     </Filter>
     <Filter Include="Networking">
-      <UniqueIdentifier>{7368E0FC-6333-33B5-9D36-6A1B20FC0786}</UniqueIdentifier>
+      <UniqueIdentifier>{01FAC00D-0670-3573-8C05-6E008A33C56E}</UniqueIdentifier>
     </Filter>
     <Filter Include="Physics">
-      <UniqueIdentifier>{256D7845-FD67-3BA5-9E40-DBAA96714DA5}</UniqueIdentifier>
+      <UniqueIdentifier>{67A591D6-45A8-34E1-94D6-68B915D97803}</UniqueIdentifier>
     </Filter>
     <Filter Include="Precompile Header File">
-      <UniqueIdentifier>{E8B5052B-5565-380D-8FB9-515451BDE8F9}</UniqueIdentifier>
+      <UniqueIdentifier>{141D30CA-428F-3A8D-A6BF-922ADDEE718C}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{9FFB2B7F-3AD9-363E-9C3F-68C9A9D7B8B3}</UniqueIdentifier>
+      <UniqueIdentifier>{1D17F554-B4CF-3F31-9ADA-51A5ACC819FE}</UniqueIdentifier>
     </Filter>
     <Filter Include="eNet">
-      <UniqueIdentifier>{C4A7511D-A3C6-38FF-A74A-A83BA12338AA}</UniqueIdentifier>
+      <UniqueIdentifier>{D6C3A595-AD9B-3CBF-97CD-194E6F341A75}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
