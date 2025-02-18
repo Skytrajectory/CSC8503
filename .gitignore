@@ -15,6 +15,16 @@
 /out/build/x64-Debug
 CMakeFiles/
 CMakeCache.txt
+CMake/
+cmake_install.cmake
 *.cmake
 x64/Debug/CSC8503CoreClasses.pdb
 x64/Debug
+
+*.filters
+*.user
+
+x64/
+
+*.log
+*.bak

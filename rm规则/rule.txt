@@ -1,0 +1,6 @@
+git rm --cached -r CMake/
+git rm --cached -r x64/
+git rm --cached *.vcxproj*
+git rm --cached *.filters
+git rm --cached *.user
+git rm --cached cmake_install.cmake
