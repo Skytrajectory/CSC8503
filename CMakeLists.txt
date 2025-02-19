@@ -84,3 +84,24 @@ if(USE_VULKAN)
     add_subdirectory(VulkanRendering)
 endif()
 set_property(DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR} PROPERTY VS_STARTUP_PROJECT CSC8503)
+
+include(FetchContent)
+
+# 获取 Google Test
+FetchContent_Declare(
+    googletest
+    URL https://github.com/google/googletest/archive/refs/tags/v1.14.0.zip
+)
+set(gtest_force_shared_crt ON CACHE BOOL "" FORCE)
+FetchContent_MakeAvailable(googletest)
+
+# 启用测试功能
+enable_testing()
+
+# 添加你的测试代码
+add_executable(my_tests tests/test.cpp)
+target_link_libraries(my_tests gtest gtest_main)
+
+# 让 CTest 发现测试
+include(GoogleTest)
+gtest_discover_tests(my_tests)
