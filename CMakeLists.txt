@@ -104,4 +104,5 @@ target_link_libraries(my_tests gtest gtest_main)
 
 # 让 CTest 发现测试
 include(GoogleTest)
-gtest_discover_tests(my_tests)
+
+add_test(NAME RunTests COMMAND my_tests --gtest_output=xml:report.xml)
