@@ -2,6 +2,8 @@ cmake_minimum_required(VERSION 3.16.0 FATAL_ERROR)
 
 set(CMAKE_SYSTEM_VERSION 10.0 CACHE STRING "" FORCE)
 set(SOURCE_DIR ${CMAKE_CURRENT_SOURCE_DIR}/src)
+set(PROJECT_ROOT_DIR ${CMAKE_SOURCE_DIR})
+include_directories(${PROJECT_ROOT_DIR}/NCLCoreClasses)
 
 project(CSC8503 CXX)
 
